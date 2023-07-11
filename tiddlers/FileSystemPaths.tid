@@ -1,0 +1,9 @@
+created: 20220829183350320
+modified: 20220829185126050
+tags: 
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[is[system]!has[draft.of]removeprefix[$:/]addprefix[_system/]]
+[is[draft]search-replace:g:regexp[/|\\],[_]addprefix[drafts/]]
+[!tag[externalnote]addprefix[]]
